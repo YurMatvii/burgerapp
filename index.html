@@ -1,42 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Burger</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-left">
-        <img
-          width="80"
-          height="80"
-          src="https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
-          alt="Logo"
-        />
-        <nav>
-          <ul>
-            <li class="active"><a href="./index.html">Discover</a></li>
-            <li><a href="./burger.html">Make your burger</a></li>
-          </ul>
-        </nav>
-      </div>
 
-      <div class="header-right">
-        <button>Call me back</button>
-        <p>+380 00 000 88 66</p>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burger</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-    <main>
-      <section class="hero container">
-        <div class="hero-left">
-            <h1>Make <br> Your Burger</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum veritatis modi molestias.</p>
+<body>
+  <header>
+    <div class="header-left">
+      <img width="80" height="80" src="https://cdn-icons-png.flaticon.com/512/5787/5787016.png" alt="Logo" />
+      <nav>
+        <ul>
+          <li class="active"><a href="./index.html">Discover</a></li>
+          <li><a href="./burger.html">Make your burger</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-right">
+      <button>Call me back</button>
+      <p>+380 00 000 88 66</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1>Make <br> Your Burger</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum veritatis modi molestias.</p>
+      </div>
+      <img src="./images/Burger.png" alt="Burger">
+    </section>
+    <section class="burger container">
+      <div class="burger-top">
+        <div class="burger-left">
+          <h1>Make <br> Your Burger</h1>
         </div>
-        <img src="./images/Burger.png" alt="Burger">
-      </section>
-    </main>
-  </body>
+        <div class="burger-center">
+          <img width="630" height="619" src="./images/BurgerConstructor.png" alt="Burger">
+          <span class="burger-price">$6.13</span>
+        </div>
+        <div class="burger-right">
+          <h4>Summary</h4>
+          <div class="burger-properties">
+            <div class="burger-property">
+              <img src="./images/icons/Calories.svg" alt="Calories">
+              249 kcal
+            </div>
+
+            <div class="burger-property">
+              <img src="./images/icons/Time.svg" alt="Time">
+              4 min
+            </div>
+
+            <div class="burger-property">
+              <img src="./images/icons/Weight.svg" alt="Weight">
+              800 g
+            </div>
+          </div>
+
+          <div class="burger-gift">
+            <span class="gift-red">+ Gift</span>
+            <p class="gift-text">Tomato Ketchup <span class="text-gray">0.2 oz</span></p>
+            <img class="ketchup" src="./images/Ketchup.png" alt="Ketchup">
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="burger-middle">
+        <button class="burger-order">Order</button>
+      </div>
+
+      <div class="burger-bottom">
+        <div class="burger-cards">
+
+          <div class="burger-card">
+            <div class="card-image">
+              <img src="./images/BurgerIngredients/Cutlet.svg" alt="Cutlet">
+            </div>
+            <h5>Cutlet</h5>
+            <div class="card-controls">
+              <button>-</button>
+              6
+              <button>+</button>
+            </div>
+          </div>
+
+          <div class="burger-card">
+            <div class="card-image">
+              <img src="./images/BurgerIngredients/Cutlet.svg" alt="Cutlet">
+            </div>
+            <h5>Cutlet</h5>
+            <div class="card-controls">
+              <button>-</button>
+              6
+              <button>+</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
